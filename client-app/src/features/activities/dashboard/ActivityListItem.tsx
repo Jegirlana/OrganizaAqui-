@@ -17,7 +17,7 @@ export default function ActivityListItem({activity}: Props) {
                         <Item.Header as={Link} to={`activities/${activity.id}`}>
                             {activity.title}
                         </Item.Header>
-                        <Item.Description>Hosted by Bob</Item.Description>
+                        <Item.Description>Feito por Maria</Item.Description>
                     </Item.Content>
                 </Item.Group>
             </Segment>
@@ -28,7 +28,7 @@ export default function ActivityListItem({activity}: Props) {
                 </span>
             </Segment>
             <Segment secondary>
-                Attendees go here
+                Onde acontecerá o evento
             </Segment>
             <Segment clearing>
                 <span>{activity.description}</span>
@@ -37,7 +37,7 @@ export default function ActivityListItem({activity}: Props) {
                     to={`/activities/${activity.id}`}
                     color='teal'
                     floated='right'
-                    content='View'
+                    content='Visualizar'
                 />
             </Segment>
         </Segment.Group>

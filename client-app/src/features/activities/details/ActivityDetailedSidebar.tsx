@@ -14,7 +14,7 @@ export default observer(function ActivityDetailedSidebar () {
                 inverted
                 color='teal'
             >
-                3 People Going
+                3 pessoas participando
             </Segment>
             <Segment attached>
                 <List relaxed divided>
@@ -24,14 +24,14 @@ export default observer(function ActivityDetailedSidebar () {
                             color='orange'
                             ribbon='right'
                         >
-                            Host
+                            Criador
                         </Label>
                         <Image size='tiny' src={'/assets/user.png'} />
                         <Item.Content verticalAlign='middle'>
                             <Item.Header as='h3'>
-                                <Link to={`#`}>Bob</Link>
+                                <Link to={`#`}>Caio</Link>
                             </Item.Header>
-                            <Item.Extra style={{ color: 'orange' }}>Following</Item.Extra>
+                            <Item.Extra style={{ color: 'orange' }}>Seguindo</Item.Extra>
                         </Item.Content>
                     </Item>
 
@@ -39,9 +39,9 @@ export default observer(function ActivityDetailedSidebar () {
                         <Image size='tiny' src={'/assets/user.png'} />
                         <Item.Content verticalAlign='middle'>
                             <Item.Header as='h3'>
-                                <Link to={`#`}>Tom</Link>
+                                <Link to={`#`}>Pedro</Link>
                             </Item.Header>
-                            <Item.Extra style={{ color: 'orange' }}>Following</Item.Extra>
+                            <Item.Extra style={{ color: 'orange' }}>Seguindo</Item.Extra>
                         </Item.Content>
                     </Item>
 
@@ -49,7 +49,7 @@ export default observer(function ActivityDetailedSidebar () {
                         <Image size='tiny' src={'/assets/user.png'} />
                         <Item.Content verticalAlign='middle'>
                             <Item.Header as='h3'>
-                                <Link to={`#`}>Sally</Link>
+                                <Link to={`#`}>Amanda</Link>
                             </Item.Header>
                         </Item.Content>
                     </Item>

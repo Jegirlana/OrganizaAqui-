@@ -21,7 +21,7 @@ export default observer(function ActivityDashboard() { //destructures Props
             <Grid.Column width='10'>
                 <ActivityList />
             </Grid.Column>
-            <Grid.Column width='6'> {/*semantic grids have 16 columns so 10 and 6 is full*/}
+            <Grid.Column width='6'>
                 <ActivityFilters />
             </Grid.Column>
         </Grid>

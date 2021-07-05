@@ -12,20 +12,20 @@ export default observer(function ActivityDetailedChat() {
                 color='teal'
                 style={{border: 'none'}}
             >
-                <Header>Chat about this event</Header>
+                <Header>Converse sobre esse evento</Header>
             </Segment>
             <Segment attached>
                 <Comment.Group>
                     <Comment>
                         <Comment.Avatar src='/assets/user.png'/>
                         <Comment.Content>
-                            <Comment.Author as='a'>Matt</Comment.Author>
+                            <Comment.Author as='a'>Maria</Comment.Author>
                             <Comment.Metadata>
-                                <div>Today at 5:42PM</div>
+                                <div>Hoje 5:42 PM</div>
                             </Comment.Metadata>
-                            <Comment.Text>How artistic!</Comment.Text>
+                            <Comment.Text>Massa!</Comment.Text>
                             <Comment.Actions>
-                                <Comment.Action>Reply</Comment.Action>
+                                <Comment.Action>Responder</Comment.Action>
                             </Comment.Actions>
                         </Comment.Content>
                     </Comment>
@@ -33,13 +33,13 @@ export default observer(function ActivityDetailedChat() {
                     <Comment>
                         <Comment.Avatar src='/assets/user.png'/>
                         <Comment.Content>
-                            <Comment.Author as='a'>Joe Henderson</Comment.Author>
+                            <Comment.Author as='a'>João</Comment.Author>
                             <Comment.Metadata>
-                                <div>5 days ago</div>
+                                <div>5 dias ago</div>
                             </Comment.Metadata>
-                            <Comment.Text>Dude, this is awesome. Thanks so much</Comment.Text>
+                            <Comment.Text>Tá certo!</Comment.Text>
                             <Comment.Actions>
-                                <Comment.Action>Reply</Comment.Action>
+                                <Comment.Action>Responder</Comment.Action>
                             </Comment.Actions>
                         </Comment.Content>
                     </Comment>
@@ -47,7 +47,7 @@ export default observer(function ActivityDetailedChat() {
                     <Form reply>
                         <Form.TextArea/>
                         <Button
-                            content='Add Reply'
+                            content='Adicionar resposta'
                             labelPosition='left'
                             icon='edit'
                             primary

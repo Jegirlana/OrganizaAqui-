@@ -36,7 +36,7 @@ export default observer (function ActivityDetailedHeader({activity}: Props) {
                                 />
                                 <p>{activity.date}</p>
                                 <p>
-                                    Hosted by <strong>Bob</strong>
+                                    Escrito por <strong>Maria</strong>
                                 </p>
                             </Item.Content>
                         </Item>
@@ -44,10 +44,10 @@ export default observer (function ActivityDetailedHeader({activity}: Props) {
                 </Segment>
             </Segment>
             <Segment clearing attached='bottom'>
-                <Button color='teal'>Join Activity</Button>
-                <Button>Cancel attendance</Button>
+                <Button color='teal'>Participar da atividade</Button>
+                <Button>Cancelar participação</Button>
                 <Button color='orange' floated='right'>
-                    Manage Event
+                    Gerenciar evento
                 </Button>
             </Segment>
         </Segment.Group>
