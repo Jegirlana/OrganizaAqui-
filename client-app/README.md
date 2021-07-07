@@ -1,1 +1,0 @@
-Curso desenvolvedor Full Stack
