@@ -1,6 +1,10 @@
 
 <p align="center">
+<<<<<<< HEAD
     <img width="70" src="https://www.wilfrid-pelletier.ca/fichiers/1book.png">
+=======
+    <img width="80" src="https://www.wilfrid-pelletier.ca/fichiers/1book.png">
+>>>>>>> 9aa7edbf165577b1002531f2fc2bfd125438961d
 </p>
 
 <h1 align="center">OrganizaAqui! ✨</h1>
@@ -9,7 +13,11 @@
 
 Uma plataforma para organizar suas atividades
 
+<<<<<<< HEAD
 <img src = "https://img.shields.io/static/v1?label=node&message=v14.17.0&color=<COLOR>&style=<STYLE>&logo=<LOGO>" /> 
+=======
+<img src = "https://img.shields.io/static/v1?label=node&message=v12.18.2&color=<COLOR>&style=<STYLE>&logo=<LOGO>" /> 
+>>>>>>> 9aa7edbf165577b1002531f2fc2bfd125438961d
 
 <img src = "https://img.shields.io/static/v1?label=server&message=dotnet&color=7159c1&style=<STYLE>&logo=<LOGO>" />
 
@@ -40,6 +48,7 @@ O OrganizaAqui! é um projeto desenvolvido durante o curso Desenvolvedor Full St
 
   - **[React][react]**
   - **[Typescript][typescript]**
+<<<<<<< HEAD
   - **[Semantic UI][semantic]**
   - **[CSS][css]**
   - **[HTML][html]**
@@ -47,6 +56,15 @@ O OrganizaAqui! é um projeto desenvolvido durante o curso Desenvolvedor Full St
   - **[C#][c#]**
   - **[JSON][json]**
   - **[SQL][sql]**
+=======
+  - **[Semantic UI][mongodb]**
+  - **[CSS][mongoose]**
+  - **[HTML][tsnode]**
+  - **[Node][multer]**
+  - **[C#][jsonwebtoken]**
+  - **[JSON][nodemailer]**
+  - **[SQL][nodemailer]**
+>>>>>>> 9aa7edbf165577b1002531f2fc2bfd125438961d
  
  
  ## 📦 Instalação
@@ -103,6 +121,7 @@ Por <a href="http://linkedin.com/in/jegirlana-santos-5513081a7">Maria Jegirlana 
 
 [node]: https://nodejs.org/en/
 
+<<<<<<< HEAD
 [semantic]: https://semantic-ui.com/
 
 [css]: https://www.w3.org/Style/CSS/Overview.en.html
@@ -117,6 +136,39 @@ Por <a href="http://linkedin.com/in/jegirlana-santos-5513081a7">Maria Jegirlana 
 
 [git]: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 
+=======
+[mongodb]: https://www.mongodb.com/
+
+[vscode]: https://code.visualstudio.com/
+
+[react_native]: http://www.reactnative.com/
+
+[express]: https://expressjs.com/
+
+[cors]: https://expressjs.com/en/resources/middleware/cors.html
+
+[tsnode]: https://github.com/TypeStrong/ts-node
+
+[insomnia]: https://insomnia.rest/
+
+[axios]: https://github.com/axios/axios
+
+[multer]: https://github.com/expressjs/multer
+
+[yarn]: https://classic.yarnpkg.com/en/docs/install/#debian-stable
+
+[npm]: https://www.npmjs.com/get-npm
+
+[git]: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
+
+[jsonwebtoken]: https://jwt.io/
+
+[mongoose]: https://mongoosejs.com/
+
+[nodemailer]: https://nodemailer.com/about/
+
+[bcryptjs]: https://www.npmjs.com/package/bcryptjs
+>>>>>>> 9aa7edbf165577b1002531f2fc2bfd125438961d
 
 
 
