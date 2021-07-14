@@ -1,7 +1,6 @@
 
 <p align="center">
     <img width="70" src="https://www.wilfrid-pelletier.ca/fichiers/1book.png">
-    <img width="80" src="https://www.wilfrid-pelletier.ca/fichiers/1book.png">
 </p>
 
 <h1 align="center">OrganizaAqui! ✨</h1>
@@ -11,8 +10,6 @@
 Uma plataforma para organizar suas atividades
 
 <img src = "https://img.shields.io/static/v1?label=node&message=v14.17.0&color=<COLOR>&style=<STYLE>&logo=<LOGO>" /> 
-
-<img src = "https://img.shields.io/static/v1?label=node&message=v12.18.2&color=<COLOR>&style=<STYLE>&logo=<LOGO>" /> 
 
 <img src = "https://img.shields.io/static/v1?label=server&message=dotnet&color=7159c1&style=<STYLE>&logo=<LOGO>" />
 
@@ -43,7 +40,6 @@ O OrganizaAqui! é um projeto desenvolvido durante o curso Desenvolvedor Full St
 
   - **[React][react]**
   - **[Typescript][typescript]**
-<<<<<<< HEAD
   - **[Semantic UI][semantic]**
   - **[CSS][css]**
   - **[HTML][html]**
@@ -51,7 +47,6 @@ O OrganizaAqui! é um projeto desenvolvido durante o curso Desenvolvedor Full St
   - **[C#][c#]**
   - **[JSON][json]**
   - **[SQL][sql]**
-=======
   - **[Semantic UI][mongodb]**
   - **[CSS][mongoose]**
   - **[HTML][tsnode]**
@@ -129,7 +124,6 @@ Por <a href="http://linkedin.com/in/jegirlana-santos-5513081a7">Maria Jegirlana 
 
 [git]: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git
 
-=======
 [mongodb]: https://www.mongodb.com/
 
 [vscode]: https://code.visualstudio.com/
