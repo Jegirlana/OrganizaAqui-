@@ -2,9 +2,9 @@ using System;
 
 namespace Domain
 {
-    public class Activity // Properties are the columns in the DB for Activities Table
+    public class Activity 
     {
-        public Guid Id { get; set; } // EntityFramework recognizes this name "Id" as a Primary Key
+        public Guid Id { get; set; } 
 
         public string Title { get; set; }
 

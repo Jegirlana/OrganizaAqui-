@@ -10,14 +10,16 @@ export default function ActivityListItem({activity}: Props) {
     
     return (
         <Segment.Group>
-            <Segment>
-                <Item.Group>
+            <Segment >
+                <Item.Group >
                     <Item.Image size='tiny' circular src='/assets/user.png' />
                     <Item.Content>
                         <Item.Header as={Link} to={`activities/${activity.id}`}>
+                        <Item.Description style={{ marginBottom: 8, marginTop: 24, marginLeft: 6, color:'black' }}>
                             {activity.title}
+                        </Item.Description>
                         </Item.Header>
-                        <Item.Description>Feito por Maria</Item.Description>
+                        
                     </Item.Content>
                 </Item.Group>
             </Segment>

@@ -28,7 +28,7 @@ export default class ActivityStore {
         )
     }
 
-    loadActivities = async () => {       // arrow function so it binds to this.
+    loadActivities = async () => {       
         this.loadingInitial = true;
         try {
             const activities = await agent.Activities.list();
@@ -66,7 +66,7 @@ export default class ActivityStore {
     }
 
     private setActivity = (activity: Activity) => {
-        activity.date = activity.date.split('T')[0]; //remove time info
+        activity.date = activity.date.split('T')[0]; 
                 this.activityRegistry.set(activity.id, activity);
     }
 

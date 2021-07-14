@@ -10,11 +10,11 @@ import ActivityDetails from '../../features/activities/details/ActivitiesDetails
 
 function App() {
   const location = useLocation();
-  return ( //Component Fragment (<> </>) allows you to return both Components (NavBar and Container)
+  return ( 
     <>
       <Route exact path='/' component={HomePage} />
       <Route
-        path={'/(.+)'}// this is regex, meaning anything with / + anything else will also be rendered.
+        path={'/(.+)'}
         render={() => (
           <>
             <NavBar />

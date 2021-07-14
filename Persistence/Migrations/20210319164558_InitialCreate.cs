@@ -5,7 +5,6 @@ namespace Persistence.Migrations
 {
     public partial class InitialCreate : Migration
     {
-        // Up runs when creating the DB
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
@@ -25,7 +24,6 @@ namespace Persistence.Migrations
                     table.PrimaryKey("PK_Activities", x => x.Id);
                 });
         }
-        // Down runs when going to an earlier migration 
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(

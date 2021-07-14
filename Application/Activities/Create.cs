@@ -10,10 +10,10 @@ namespace Application.Activities
     {
         public class Command : IRequest
         {
-            public Activity Activity { get; set; } //want to recieve an Activity as a parameter from the api
+            public Activity Activity { get; set; } 
         }
 
-        public class Handler : IRequestHandler<Command> //no return so no comma
+        public class Handler : IRequestHandler<Command> 
         {
             private readonly DataContext _context;
             public Handler(DataContext context)
@@ -23,11 +23,11 @@ namespace Application.Activities
 
             public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
             {
-                _context.Activities.Add(request.Activity); //adding in memory at this point, not the DB. (thus no await)
+                _context.Activities.Add(request.Activity); 
 
-                await _context.SaveChangesAsync(); // this is what changes the DB.
+                await _context.SaveChangesAsync(); 
             
-                return Unit.Value; //this means nothing. Just lets api controller know we are done.
+                return Unit.Value; 
             }
         }
     }

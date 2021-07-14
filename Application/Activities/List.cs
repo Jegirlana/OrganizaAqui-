@@ -12,10 +12,10 @@ namespace Application.Activities
 {
     public class List
     {
-        public class Query : IRequest<List<Activity>> //Returns a list of Activites
+        public class Query : IRequest<List<Activity>> 
         { }
 
-        public class Handler : IRequestHandler<Query, List<Activity>> //matches list<Activity in Query
+        public class Handler : IRequestHandler<Query, List<Activity>> 
         {
             private readonly DataContext _context;
 

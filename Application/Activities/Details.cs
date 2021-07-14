@@ -9,12 +9,12 @@ namespace Application.Activities
 {
     public class Details
     {
-        public class Query : IRequest<Activity> //returns Activity
+        public class Query : IRequest<Activity> 
         {
             public Guid Id { get; set; }
         }
 
-        public class Handler : IRequestHandler<Query, Activity> //param Query, return Activity
+        public class Handler : IRequestHandler<Query, Activity> 
         {
             private readonly DataContext _context;
             public Handler(DataContext context)

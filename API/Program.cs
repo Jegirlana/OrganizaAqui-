@@ -18,7 +18,6 @@ namespace API
         {
             var host = CreateHostBuilder(args).Build();
 
-            // using removes scope after Main finishes
             using var scope = host.Services.CreateScope();
 
             var services = scope.ServiceProvider;
@@ -26,7 +25,7 @@ namespace API
             try
             {
                 var context = services.GetRequiredService<DataContext>();
-                await context.Database.MigrateAsync(); //Creates DB or updates existing
+                await context.Database.MigrateAsync();
                 await Seed.SeedData(context);
             }
             catch (Exception ex)
@@ -35,7 +34,7 @@ namespace API
                 logger.LogError(ex, "An error occured during migration");
             }
 
-            await host.RunAsync(); //actually starts application
+            await host.RunAsync(); 
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
